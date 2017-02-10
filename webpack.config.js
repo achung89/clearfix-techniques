@@ -2,7 +2,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var path = require('path');
 module.exports = {
   // your config settings ...
-  entry:'./src/append.js',
+  entry:["webpack-dev-server/client?http://localhost:8080",'./src/append.js'],
   output: {
     path: 'dist',
     publicPath:'/dist',

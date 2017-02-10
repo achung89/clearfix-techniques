@@ -1,0 +1,30 @@
+.box {
+    width:100px;
+    background-color:yellow;
+    height:100px;
+}
+.container {
+    background-color:red;
+    padding:10px;
+}
+.container-after-tech {
+    background-color:red;
+    padding:10px;
+}   
+.container-after-tech:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+.left {
+    float:left;
+}
+.middle {
+    display:inline;
+    clear:both;
+}
+.right {
+    float:right;
+}
